@@ -22,7 +22,6 @@ html {
 body {
     background: #DAD0C7;
     color: #514935;
-    maxwidth: 2000px;
     margin: 0;
     padding: 0;
     font-size: 1rem;
@@ -136,7 +135,7 @@ a.btnlight {
 
 .flexbox {
     display: grid;
-    <!-- grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); -->
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     column-gap: 1.5rem;
     row-gap: 1em;
 }
