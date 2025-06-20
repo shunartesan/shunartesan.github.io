@@ -28,6 +28,10 @@ body {
     font-family: system-ui;
 }
 
+.langselect {
+    text-align: center;
+}
+
 .container {
     width: 90%;
     padding: auto;
@@ -76,7 +80,7 @@ h2 {
     color: #907E6E;
 }
 
-h3 {
+h3, h4 {
     margin: 1rem 0 0;
 }
 
@@ -122,6 +126,12 @@ a.btnlight {
     background: #EDE8E3;
 }
 
+a.org {
+    color:#907E6E;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
 .brbtn {
     position: absolute;
     right: 0;
@@ -135,7 +145,7 @@ a.btnlight {
 
 .flexbox {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     column-gap: 1.5rem;
     row-gap: 1em;
 }
@@ -218,20 +228,25 @@ ul.inline li{
 }
 
 table, table td, table th {
-    border: none;
+    border-collapse: collapse;
+    border: solid 1px black;
+    padding: 0.2rem 1rem;
 }
 
 table th {
     padding: 0.2rem 1rem;
-    text-align: left;
-}
-  
-table td {
-    padding: 0.2rem 1rem;
-    text-align: left;
+    font-weight: normal;
+
 }
 
-table td.left {
-    width: 8rem;
+table td.right {
     text-align: right;
+}
+
+table td.leftbold {
+    font-weight: bold;
+}
+
+table td.tt {
+    font-family: Menlo, Monaco, 'Courier New', monospace;
 }
