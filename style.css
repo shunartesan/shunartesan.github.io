@@ -30,6 +30,7 @@ body {
 
 .langselect {
     text-align: center;
+    margin: 1rem;
 }
 
 .container {
@@ -73,19 +74,19 @@ h1 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 1rem auto 0;
+    margin: 2rem auto 0;
 }
 
 h2 {
     color: #907E6E;
 }
 
-h3, h4 {
-    margin: 1rem 0 0;
+h2, h3, h4 {
+    margin: 1em 0 0;
 }
 
 p {
-    margin: 1rem 0 1rem;
+    margin: 1rem 0 0;
 }
 
 footer {
@@ -127,9 +128,11 @@ a.btnlight {
 }
 
 a.org {
+    display: block;
     color:#907E6E;
     font-size: 0.8rem;
     text-decoration: underline;
+    margin: 0.5rem 0 0;
 }
 
 .brbtn {
@@ -145,7 +148,7 @@ a.org {
 
 .flexbox {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     column-gap: 1.5rem;
     row-gap: 1em;
 }
@@ -160,7 +163,7 @@ a.org {
 }
 
 .box {
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
 }
 
 .card {
@@ -186,7 +189,7 @@ a.org {
 }
 
 .cardtext {
-    margin: 1rem;
+    margin: 0 1rem 0;
 }
 
 .bar {
@@ -231,6 +234,7 @@ table, table td, table th {
     border-collapse: collapse;
     border: solid 1px black;
     padding: 0.2rem 1rem;
+    margin: 1rem 0 0;
 }
 
 table th {
