@@ -30,7 +30,7 @@ body {
 
 .langselect {
     text-align: center;
-    margin: 1rem;
+    margin:1rem;
 }
 
 .container {
@@ -57,51 +57,28 @@ header {
 }
 
 section {
-    margin: 3rem auto;
+    margin: 1.5rem 1rem;
 }
 
 h1,
 h2,
 h3,
-h4,
-h5,
 img,
 p {
     margin: 0;
     padding: 0;
 }
 
+p {
+    line-height: 1.5em;
+    margin: 1rem 0 0;
+}
+
 h1,
 h2,
 h3,
-h4,
-h5,
 p {
-    line-height: 1.5em;
-}
-
-h1 {
-    font-size: x-large;
-}
-
-h2 {
-    font-size: large;
-}
-
-h1, h2 {
-    margin: 1em 0 0;
-}
-
-h3 {
-    font-size: medium;
-}
-
-h3 {
-    margin: 1rem 0 0;
-}
-
-p {
-    margin: 1rem 0 0;
+    font-size: 1rem;
 }
 
 .acp {
@@ -181,8 +158,8 @@ a.btnlight {
 .flexbox {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    column-gap: 1.5rem;
-    row-gap: 1em;
+    column-gap: 1rem;
+    row-gap: 1rem;
 }
 
 .box, .card {
@@ -194,12 +171,12 @@ a.btnlight {
     overflow: hidden;
 }
 
-.box {
-    padding: 1rem 1rem 2rem 1rem;
-}
-
 .card {
     padding-bottom: 3rem;
+}
+
+.box {
+    margin:0 0 1rem 0;
 }
 
 .card figure {
@@ -221,14 +198,21 @@ a.btnlight {
 }
 
 .cardtext {
-    margin: 0 1rem 0;
+    margin: 1rem;
 }
 
-.cardtitle {
+.l1 {
     font-weight: bold;
     font-size: x-large;
     color: #907E6E;
-    margin: 1em 0 0;
+    margin: 1rem 0 0;
+}
+
+.l2 {
+    font-weight: bold;
+    font-size: large;
+    color: #514935;
+    margin: 1rem 0 0;
 }
 
 .bar {
@@ -241,7 +225,7 @@ a.btnlight {
     padding: 0 2em;
     width: fit-content;
     border-radius: 1.8rem;
-    margin: auto;
+    margin: 1rem auto;
 
 }
 
@@ -291,7 +275,6 @@ table, table td, table th {
 table th {
     padding: 0.2rem 1rem;
     font-weight: normal;
-
 }
 
 table td.right {
@@ -304,4 +287,30 @@ table td.leftbold {
 
 table td.tt {
     font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+table.none {
+    border-collapse: collapse;
+    border: none 1px black;
+    padding: 0.2rem 1rem;
+    margin: 1rem 0 0;
+}
+
+table td.none1 {
+    border-collapse: collapse;
+    border: none 1px black;
+    line-height: 1.5rem;
+    min-width: 6.5rem;
+    text-align: left;
+    vertical-align: top;
+    margin: 1rem 0;
+    padding: 0.5rem 0.5rem 0 0;
+}
+table td.none2 {
+    border-collapse: collapse;
+    border: none 1px black;
+    line-height: 1.5rem;
+    text-align: left;
+    padding: 0.5rem 0;
+    vertical-align: top;
 }
