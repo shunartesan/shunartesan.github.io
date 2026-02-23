@@ -98,6 +98,7 @@ footer {
 a {
     text-decoration: none;
     color: #514935;
+    margin: 0;
 }
 
 hr {
@@ -134,14 +135,13 @@ a.btnlight {
     color:#907E6E;
     font-size: smaller;
     text-decoration: underline;
-    margin: 0.4rem 0 0 0;
+    margin: 0.4rem 0 0;
 }
 
 .link02 {
     color:#514935;
-    font-size: medium;
+    font-size: 1rem;
     text-decoration: underline;
-    margin: 2rem 0 0;
 }
 
 .brbtn {
@@ -233,6 +233,7 @@ ul.inline {
     list-style-type: none;
 	padding-left: 0;
 	text-align: center;
+    font-size: 1rem;
 }
 
 ul.inline li{
@@ -258,7 +259,7 @@ ul.inline li{
 }
 
 .ref {
-    margin: 1rem 0 0 1rem;
+    margin: 0.6rem 0 0 1rem;
 }
 
 .ref ::before {
