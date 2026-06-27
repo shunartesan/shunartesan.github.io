@@ -10,7 +10,7 @@ input[type="submit"] {
 html {
     box-sizing: border-box;
     -ms-overflow-style: scrollbar;
-    font-size: medium;
+    font-size: large;
 }
 
 *,
@@ -44,12 +44,11 @@ header {
 }
 
 .header {
-    font-size: x-large;
     font-weight: bolder;
     color: #514935;
     text-align: center;
     font-family: "Gill Sans";
-    font-size: 3rem;
+    font-size: 2rem;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
@@ -74,24 +73,18 @@ p {
     margin: 1rem 0 0;
 }
 
-h1,
-h2,
-h3,
-p {
-    font-size: 1rem;
-}
-
 .acp {
     margin: 0.5rem 0 0;
 }
 
 .ipa {
-    font-size: small;
+    font-size: 0.8rem;
     color:#907E6E;
     margin: 0.5em 0 0 0;
 }
 
 footer {
+    font-size: 0.8em;
     text-align: center
 }
 
@@ -133,14 +126,13 @@ a.btnlight {
 .link01 {
     display: block;
     color:#907E6E;
-    font-size: smaller;
+    font-size: 0.8rem;
     text-decoration: underline;
     margin: 0.4rem 0 0;
 }
 
 .link02 {
     color:#514935;
-    font-size: 1rem;
     text-decoration: underline;
 }
 
@@ -203,14 +195,14 @@ a.btnlight {
 
 .l1 {
     font-weight: bold;
-    font-size: x-large;
+    font-size: 1.5rem;
     color: #907E6E;
     margin: 1rem 0 0;
 }
 
 .l2 {
     font-weight: bold;
-    font-size: large;
+    font-size: 1.2rem;
     color: #514935;
     margin: 1rem 0 0;
 }
@@ -231,19 +223,13 @@ a.btnlight {
 
 ul {
     list-style-type: disc;
-    font-size: 1rem;
     line-height: 1.5rem;
-}
-
-ul li{
-
 }
 
 ul.inline {
     list-style-type: none;
 	padding-left: 0;
 	text-align: center;
-    font-size: 1rem;
 }
 
 ul.inline li{
@@ -279,13 +265,11 @@ content: '>> '
 table, table td, table th {
     border-collapse: collapse;
     border: solid 1px black;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0.6rem;
     margin: 1rem 0 0;
-    font-size: 1rem;
 }
 
 table th {
-    padding: 0.2rem 1rem;
     font-weight: normal;
 }
 
